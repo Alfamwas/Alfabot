@@ -331,11 +331,11 @@ console.log(e)
 
 mess = {
 wait: 'In process...',
-eror: 'Hmm.. somthing went wronh X(',
-success: 'Yea Its Done',
+eror: 'Hmm.. somthing went wrong X(',
+success: 'Done',
 error: {
-stick: 'Umm.. idont think thats a sticker',
-Iv: 'Hey Thats not a valid Link'
+stick: 'Umm.. i dont think thats a sticker',
+Iv: 'Invalid Link'
 },
 only: {
 nsfw: 'NSFW is Deactivated by default, you can contact the admin of you want, but i dont think he is gona activate it',
@@ -598,7 +598,7 @@ if (!isGroup) return
 if (!isAntiLink) return
 if (isGroupAdmins) return
 var kic = `${sender.split("@")[0]}@s.whatsapp.net`
-reply(` *「 𝙂𝙍𝙊𝙐𝙋 𝙇𝙄𝙉𝙆 𝘿𝙀𝙏𝙀𝘾𝙏𝙀𝘿 」*\nGrouplinks are not allowed in this group. by sending this link you violated one inportant rule. now, i will have ro remove you. Sorry but rule is rule we have to move on, Bye`)
+reply(` *「 *ANTI*-𝙇𝙄𝙉𝙆 𝘿𝙀𝙏𝙀𝘾𝙏𝙀𝘿 」*\nNiko macho msee 😂, Bye!`)
 setTimeout(() => {
 Alienalfa.groupRemove(from, [kic]).catch((e) => { reply(`BOTS MUST BE ADMIN`) })
 }, 0)
@@ -609,7 +609,7 @@ if (!isGroup) return
 if (!isAntiVirtex) return
 if (isGroupAdmins) return
 reply('Mark as read\n'.repeat(300))
-reply(`「 *VIRUS DETECTED* 」\n\nHmm.. You This is detected as a *Virtex* this is classified as a crime to other users, so i will have to ban you from this chat. Dont try to hurt other people, no good will come from that. bye`)
+reply(`「 *VIRUS DETECTED* 」\n\nUnatuma virus kama nani. unadhani nimedoz 😂,bye !`)
 console.log(color('[KICK]', 'red'), color('Received a text virus!', 'yellow'))
 Alienalfa.groupRemove(from, [sender])
 }     
@@ -658,14 +658,14 @@ menu =
  
 *_${ucapanWaktu} @${senderr.split('@')[0]}_*
 
-❏「 𝘛𝘐𝘔𝘌 」
-${gaya1} *𝘋𝘢𝘵𝘦* : ＡＬＩＥＮ ＡＬＦＡ
+❏「 𝘛𝘐𝘔E 」
+${gaya1} *𝘋𝘢𝘵𝘦* : ＡLFA BOT
 ${gaya1} *𝘛𝘪𝘮𝘦* : ${time}
 
 ❏「 𝘐𝘕𝘍𝘖 𝘉𝘖𝘛 」
 ${gaya1} *𝘚𝘱𝘦𝘦𝘥* : ${latensie.toFixed(4)} 𝘚𝘦𝘤𝘰𝘯𝘥
 ${gaya1} *𝘙𝘶𝘯𝘵𝘪𝘮𝘦* : ${runtime(process.uptime())}
-${gaya1} *𝘉𝘰𝘵 𝘕𝘢𝘮𝘦* : ${botname}
+${gaya1} *𝘉𝘰𝘵 𝘕𝘢𝘮𝘦* : ALFA BOT
 ${gaya1} *𝘖𝘸𝘯𝘦𝘳 𝘕𝘢𝘮𝘦* : ${ownername}
 ${gaya1} *𝘖𝘸𝘯𝘦𝘳 𝘕𝘶𝘮𝘣𝘦𝘳* : @${pemilik.split('@')[0]}
 ${gaya1} *𝘏𝘰𝘴𝘵 𝘕𝘢𝘮𝘦 :* ${os.hostname()}
@@ -703,7 +703,7 @@ footerText: `*${botname}*`,
 description: `Hi Friend @${senderr.split('@')[0]}, Please select the menu here`,
 sections: [
 {
-"title": `ＡＬＩＥＮ ＡＬＦＡ - ${time}`,
+"title": `ＡＬＦＡ B O T- ${time}`,
 rows: [
 {
 "title": "𒆜𝙂𝙧𝙤𝙪𝙥 𝙈𝙚𝙣𝙪",
@@ -816,14 +816,14 @@ case 'tqto':
 menu =`
 BONKS`
 
-//Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+//Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ AＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 }
 ]
 
-Alienalfa.sendMessage(from, `${menu}`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼",body:"Subscribe to my YouTube channel", previewType:"PHOTO", thumbnail:fs.readFileSync('./media/Alfa.jpg'), sourceUrl:"https:youtube.com/c/alienalfa"}}}, but)
+ 
     
 
 
@@ -832,10 +832,9 @@ case 'allmenu':
 
 menu =`*Removed Feature*`
 
-//Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+//Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 
 
-Alienalfa.sendMessage(from, `${menu}`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼",body:"Subscribe to my YouTube channel", previewType:"PHOTO", thumbnail:fs.readFileSync('./media/Alfa.jpg'), sourceUrl:"https:youtube.com/c/alienalfa"}}}, but)
 break
 
 
@@ -893,15 +892,10 @@ ${gaya2} ${prefix}resetgrouplink`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+ 
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -912,7 +906,7 @@ ${gaya2} ${prefix}resetgrouplink`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//    	     
@@ -964,15 +958,10 @@ ${gaya2} ${prefix}lyrics _song name_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -983,7 +972,7 @@ ${gaya2} ${prefix}lyrics _song name_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1149,15 +1138,10 @@ ${gaya2} ${prefix}gura _Text1&Text2_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1168,7 +1152,7 @@ ${gaya2} ${prefix}gura _Text1&Text2_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1194,15 +1178,10 @@ ${gaya2} ${prefix}dare`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1213,7 +1192,7 @@ ${gaya2} ${prefix}dare`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1266,15 +1245,10 @@ ${gaya2} ${prefix}wallpapergame`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1285,7 +1259,7 @@ ${gaya2} ${prefix}wallpapergame`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1318,15 +1292,10 @@ ${gaya2} ${prefix}storyanime`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1337,7 +1306,7 @@ ${gaya2} ${prefix}storyanime`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1370,16 +1339,10 @@ ${gaya2} ${prefix}nantalia`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
-		   	      
+
 //══════════════════[ Template photo ]══════════════════//
 
    	  if (pic === true ) 
@@ -1389,7 +1352,7 @@ ${gaya2} ${prefix}nantalia`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1430,15 +1393,10 @@ ${gaya2} ${prefix}malaysia`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1449,7 +1407,7 @@ ${gaya2} ${prefix}malaysia`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1536,15 +1494,10 @@ ${gaya2} ${prefix}nino`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1555,7 +1508,7 @@ ${gaya2} ${prefix}nino`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//    	     
@@ -1648,15 +1601,10 @@ ${gaya2} ${prefix}bokep`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+ 
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1667,7 +1615,7 @@ ${gaya2} ${prefix}bokep`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_AＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1703,15 +1651,10 @@ ${gaya2} ${prefix}memegenerator _Text_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1722,7 +1665,7 @@ ${gaya2} ${prefix}memegenerator _Text_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_A L F A B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1777,15 +1720,10 @@ ${gaya2} ${prefix}charactercheck [tag]`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_A ＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1796,7 +1734,7 @@ ${gaya2} ${prefix}charactercheck [tag]`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1894,16 +1832,10 @@ ${gaya2} ${prefix}sound74`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
-		   	      
+  
 //══════════════════[ Template photo ]══════════════════//
 
    	  if (pic === true ) 
@@ -1913,7 +1845,7 @@ ${gaya2} ${prefix}sound74`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -1940,15 +1872,10 @@ ${gaya2} ${prefix}ssweb _URL_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+ 
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -1959,7 +1886,7 @@ ${gaya2} ${prefix}ssweb _URL_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//    	     
@@ -2001,15 +1928,10 @@ ${gaya2} ${prefix}tts _code text_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -2020,7 +1942,7 @@ ${gaya2} ${prefix}tts _code text_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -2046,15 +1968,11 @@ ${gaya2} ${prefix}level`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+	      
+  
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -2065,7 +1983,7 @@ ${gaya2} ${prefix}level`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -2094,15 +2012,10 @@ ${gaya2} ${prefix}google _Query_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_A L F A B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -2113,7 +2026,7 @@ ${gaya2} ${prefix}google _Query_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -2145,15 +2058,10 @@ ${gaya2} ${prefix}apkshub _Apk Name_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+  
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -2164,7 +2072,7 @@ ${gaya2} ${prefix}apkshub _Apk Name_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -2196,15 +2104,10 @@ ${gaya2} ${prefix}delete _Reply to bot messages_`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -2215,7 +2118,7 @@ ${gaya2} ${prefix}delete _Reply to bot messages_`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -2263,15 +2166,10 @@ ${gaya2} ${prefix}self`
 
    	   if   (loc === true )
    	      {
-   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＩＥＮ ＡＬＦＡ_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+   	         Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `*_ＡＬＦＡ B O T_*`, buttons: [{ buttonId: `${prefix}alfa`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐 ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', thumbnail:fs.readFileSync('./media/Alfa.jpg'), contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
    	      }
    	      
-//══════════════════[ Template Link ]══════════════════//
-   	      
-	 if (link === true )
-	     {
-		 	Alienalfa.sendMessage(from, menu, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "--- 𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼 ---",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alfa.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
-		 } 
+
 		   	      
 //══════════════════[ Template photo ]══════════════════//
 
@@ -2282,7 +2180,7 @@ ${gaya2} ${prefix}self`
 			{ buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 			{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 			]
-			sendButImage(from, menu, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+			sendButImage(from, menu, `_ＡＬＦＡ B O T - *${time}_*`, scpic, but)
    	     }
    	     
 //════════════════════════════════════════════════[ Template END ]════════════════════════════════════════════════//     	     
@@ -2291,7 +2189,7 @@ ${gaya2} ${prefix}self`
 		break
 case 'abcde':
 
-reply('damn Boii, really lame, wow, no one wants to play with him bro, its unclean because he is lame 🗿')
+reply('🤔🤔')
 break
 
 //══════════[ RENT DLL ]══════════//
@@ -2307,52 +2205,45 @@ menu =
  *${ucapanWaktu} @${senderr.split('@')[0]}*
 
 \`\`\`OPEN FOR RENT :\`\`\`
-➪ *1 Week :* _100INR_
-➪ *1 Month :* _200INR_
-➪ *Permanent :* _550INR_
+➪ *1 Week :* _100ksh_
+➪ *1 Month :* _250ksh_
+➪ *Permanent :* _500ksh_
 
 \`\`\`OPEN FOR STUDENTS :\`\`\`
-➪ *Ordinary student :* _500INR_
-➪ *Premium student :* _1000INR_
+➪ *Ordinary student :* _350ksh_
+➪ *Premium student :* _500ksh_
 
 \`\`\`OPEN FOR SC :\`\`\`
-➪ *Wanna buy this script? :* _Price: ₹250 (India)_
+➪ *Wanna buy this script? :* _Price: ksh 500_
 
 For those who want to buy script or interested in any of the above
 Can request, if interested please contact the developer`
-Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: alfaimg, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
+Alienalfa.sendMessage(from, { contentText: `${menu}`, footerText: `_ＡＬＦＡ B O T - *${time}_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'PAYMENT 💸' }, type: 1 },{ buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: alfaimg, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 //case 'bayar':
 //case 'payment':
-
-gambar = fs.readFileSync('./media/Fake.jpg')
+		
 menunya = `*「 PAYMENT 」*
 
 • Note: Talk to the owner before payment
-• FamPay : _Please scan the qr above_`
+
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: '𒆜𝙊𝙒𝙉𝙀𝙍' }, type: 1 }
 ]
-sendButImage(from, menunya, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, gambar, but)
+sendButImage(from, menunya, `_ＡＬＦＡ B O T- *${time}_*`, gambar, but)
 break 
 
-/*
-case 'report':
-if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
-	const encmedialoli = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-const media = await Alienalfa.downloadAndSaveMediaMessage(encmedialoli)
-Alienalfa.sendMessage(`447405935355@s.whatsapp.net`, `───「 *ＢＵＧ ＲＥＰＯＲＴＩＮＧ* 」───\n\n\         \n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alien.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}}, m)
+ 
 
-break 
-*/
+
 //══════════[ DOWNLOAD FEATURES ]══════════//
 /*Help case ?
 give credit too / add in at tqtq
---> Alienalfa*/
+--> Alfabot*/
 
       case 'mediafire':
-        if (args.length < 1) return reply('Hmm.. Gime the link bro..')
+        if (args.length < 1) return reply('Hmm.. Give me the link bro..')
         if (!isUrl(args[0]) && !args[0].includes('mediafire')) return reply(mess.error.Iv)
         reply(mess.wait)
         teks = args.join(' ')
@@ -2364,7 +2255,7 @@ Size : ${res[0].size}
 Link : ${res[0].link}
 
 Please Choose Whether Document, Audio or Video Below`
-        sendButMessage(from, result, `*ＡＬＩＥＮ ＡＬＦＡ*`, [
+        sendButMessage(from, result, `*ＡＬＦＡ B O T*`, [
           {
             buttonId: `${prefix}fire ${teks}`,
             buttonText: {
@@ -2608,7 +2499,7 @@ if (args.length < 1) return reply("✨There was supposed to be a link!")
 url = args.join(' ')
 anump3 = await fetchJson(`https://apidhani.herokuapp.com/api/download/ytmp3?url=${url}&apikey=${dhakey}`)
 ytmp3 = await getBuffer(anump3.result.url)
-reply(`_Audio is being processed, please wait a while longer_`)
+reply(`_Audio is being processed, please wait a moment_`)
 Alienalfa.sendMessage(from, ytmp3, audio, {mimetype:"audio/mp4", quoted:mek})
 break
 case 'ytmp4':
@@ -2619,14 +2510,14 @@ if (args.length < 1) return reply("✨There was supposed to be a link!")
 url = args.join(' ')
 anump4 = await fetchJson(`https://apidhani.herokuapp.com/api/download/ytmp4?url=${url}&apikey=${dhakey}`)
 ytmp4 = await getBuffer(anump4.result.url)
-reply(`_The video is being processed, please wait a few more moments_`)
+reply(`_The video is being processed, please wait a few more moments🙃_`)
 Alienalfa.sendMessage(from, ytmp4, video, {caption:`Done✓`, thumbnail:Buffer.alloc(0), quoted:mek})
 break
 
 //══════════[ INTAKE FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Alienalfa*/
+--> Alfabot*/
 
 case 'asupan':
 case 'asupanloli':
@@ -2640,7 +2531,7 @@ case 'nantalia':
 reply(mess.wait)
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/asupan/${command}?apikey=${dhakey}`)
 Teks = `You can continue by clicking Next button 🌿${command} `
-sendButVideo(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButVideo(from, Teks, `_A L F A B O T- *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -2655,7 +2546,7 @@ case 'hijaber':
 reply(mess.wait)
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/asupan/hijaber?apikey=${dhakey}`)
 Teks = `You can continue by clicking Next button 🌿${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_ＡＬＦＡ B O T- *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -2669,7 +2560,7 @@ break
 //══════════[ RANDOM GIRL FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Alienalfa*/
+--> Alfabot*/
 
 case 'cecan':
 case 'cogan':
@@ -2692,7 +2583,7 @@ case 'malaysia':
 reply(mess.wait)
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/cecan/${command}?apikey=${dhakey}`)
 Teks = `You can continue by clicking Next button 🌿${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_ＡＬＦＡ B O T- *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -2706,7 +2597,7 @@ break
 //══════════[ RANDOM TEXT ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Alienalfa*/
+--> Alfabot*/
 
 case 'pantun2':
 case 'puisi':
@@ -2767,7 +2658,7 @@ break;
 //══════════[ RANDOM IMAGE FEATURES ]══════════//
 /*Help case ?
 just give credit / add in tqtq
---> Alienalfa*/
+--> Alfabot*/
 
                 case 'bts':
                 case 'exo':
@@ -2817,7 +2708,7 @@ case 'ppcouple':
 anucpp = await fetchJson(`https://apidhani.herokuapp.com/api/randomimage/ppcouple?apikey=${dhakey}`)
 cowo = await getBuffer(anucpp.result.male)
 Cowok = `_This is the boy_`
-sendButImage(from, Cowok, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, cowo, [                      
+sendButImage(from, Cowok, `_ＡＬＦＡ B O T-*${time}_*`, cowo, [                      
 {
 buttonId: `${prefix + command}`,
 buttonText: {
@@ -2828,7 +2719,7 @@ type: 1,
 ]);
 cewe = await getBuffer(anu.result.female)
 Cewek = `_This is the girl_`
-sendButImage(from, Cewek, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, cewe, [                      
+sendButImage(from, Cewek, `_ＡＬＦＡ B O T - *${time}_*`, cewe, [                      
 {
 buttonId: `${prefix + command}`,
 buttonText: {
@@ -2844,7 +2735,7 @@ reply(mess.wait)
 anumeme = await fetchJson(`https://apidhani.herokuapp.com/api/randomimage/meme?apikey=${dhakey}`)
 buffer = await getBuffer(anumeme.result.url)
 Teks = `Click Next To Go The Next ${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_AＬＦＡ B O T- *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -2868,7 +2759,7 @@ case 'wallpapergame':
 reply(mess.wait)
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/randomimage/${command}?apikey=${dhakey}`)
 Teks = `Click Next To Go To The Next ${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_ＡＬＦＡ B O T - *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -2899,7 +2790,7 @@ case 'motor':
 reply(mess.wait)
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/randomimage/${command}?apikey=${dhakey}`)
 Teks = `You can continue by clicking Next button 🌿${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_ＡＬＦＡ B O T - *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -2917,7 +2808,7 @@ case 'darkjokers':
 reply(mess.wait)
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/randomimage/darkjokes?apikey=${dhakey}`)
 Teks = `You can continue by clicking Next button 🌿${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_ＡＬＦＡ B O T- *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -3006,7 +2897,7 @@ case 'nino':
 
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/anime/${command}?apikey=${dhakey}`)
 Teks = `You can continue by clicking Next button 🌿${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_ＡＬＦＡ B O T- *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -3050,7 +2941,7 @@ break
 //----> NSFW FEATURES <----//
 
 case 'hentaisearch': case 'nhentai':{
-	if (!isGroup) return reply('Bonk! \nthis is a po*n so be in a group so that everyone will be sinned 😂')
+	if (!isGroup) return reply('Warning! \nthis is po*n so be in a group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
     if (args.length == 0) return reply(`✨Example: ${prefix + command} 344253`)
     henid = args[0]
@@ -3092,12 +2983,12 @@ case 'pussy':
 case 'thighs':
 case 'yuri':
 
-if (!isGroup) return reply('Bonk! \nthis is a po*n so be in a group so that everyone will be sinned 😂')
+if (!isGroup) return reply('Warning! \nthis is po*n so be in a group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
 anu23 = await fetchJson(`https://apidhani.herokuapp.com/api/nsfw/${command}?apikey=${dhakey}`)
 buffer = await getBuffer(anu23.result)
 Teks = `You can continue by clicking Next button 🌿${command}`
-sendButImage(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButImage(from, Teks, `_ＡＬＦＡ B O T - *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -3113,7 +3004,7 @@ if (!isNsfw) return reply(mess.only.nsfw)
 reply(mess.wait)
 get_result = await getBuffer(`${porn1}/api/bokep?apikey=RakuKeyTod`)
 pll = `Here u go my friend! dont forget to masterbate, okay?😂`
-sendButVideo(from, pll, `*ＡＬＩＥＮ ＡＬＦＡ*`, get_result, [      
+sendButVideo(from, pll, `*ＡＬＦＡ B O T*`, get_result, [      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -3138,7 +3029,7 @@ break
                 case 'biganimetiddies':
                 case 'animebellybutton':
                 case 'hentai4everyone':
-                if (!isGroup) return reply('Bonk! \nthis is a po*n so be in a group so that everyone will be sinned 😂')
+                if (!isGroup) return reply('Warning! \nthis is po*n so be in a group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
                 reply(mess.wait)
                     await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${Lolhuman}`).then((gambar) => {
@@ -3179,7 +3070,7 @@ if (!isNsfw) return reply(mess.only.nsfw)
                 case 'pussy_jpg':
                 case 'kemonomimi':
                 case 'nsfw_avatar':
-                if (!isGroup) return reply('Bonk! \nthis is a po*n so be in a group so that everyone will be sinned 😂')
+                if (!isGroup) return reply('Warning! \nthis is po*n so be in a group so that everyone will be sinned 😂')
 if (!isNsfw) return reply(mess.only.nsfw)
                 reply(mess.wait)
                     getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${Lolhumanbykur}`).then((gambar) => {
@@ -3202,7 +3093,7 @@ case 'storybus':
 reply(mess.wait)
 buffer = await getBuffer(`https://apidhani.herokuapp.com/api/randomvideo/${command}?apikey=${dhakey}`)
 Teks = `You can continue by clicking Next button 🌿${command}`
-sendButVideo(from, Teks, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, buffer, [                      
+sendButVideo(from, Teks, `_ＡＬＦＡ B O T- *${time}_*`, buffer, [                      
 {
 buttonId: `${prefix+command}`,
 buttonText: {
@@ -3223,7 +3114,7 @@ just give credit / add in tqtq
                 case 'goldplaybutton':          
                 case 'silverplaybutton':          
                 case 'freefire':          
-                    if (args.length == 0) return reply(`✨Example: ${prefix + command} Alienalfa`)
+                    if (args.length == 0) return reply(`✨Example: ${prefix + command} Alfabot`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${lolkey}&text=${ini_txt}`).then((gambar) => {
                         Alienalfa.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Here you go!`, quoted : mek}) 
@@ -3346,7 +3237,7 @@ case '3ddeepseametal':
 case 'leddisplayscreen':
 case 'wonderfulgraffitiart':
 
-if (args.length < 1) return reply(`*Where is the text?*\n_✨Example : ${prefix + command} your name_`) 
+if (args.length < 1) return reply(`*Where is the text 🙄?*\n_✨Example : ${prefix + command} your name_`) 
 teks = args.join(" ")
 reply(mess.wait)
 anuapidhani = await fetchJson(`https://apidhani.herokuapp.com/api/textpro/${command}?apikey=${dhakey}&text=${teks}`)
@@ -3355,7 +3246,7 @@ Alienalfa.sendMessage(from, oke, image, {quoted: mek, caption: 'Here u go!😛'}
 break
 case 'hartatahta': 
 
-if (args.length < 1) return reply(`*Wher is the text?*\n_✨Example : ${prefix + command} your name_`) 
+if (args.length < 1) return reply(`*Where is the text 🤔?*\n_✨Example : ${prefix + command} your name_`) 
 teks = args.join(" ")
 reply(mess.wait)
 harta = await getBuffer(`https://apidhani.herokuapp.com/api/maker/harta-tahta?apikey=${dhakey}&text=${teks}`)
@@ -3624,15 +3515,15 @@ Alienalfa.sendMessage(from, girlnekoooo, image, {caption: `Here u go!😛`, quot
 break
                          case 'wolf3':
                          
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot*`)
                    F = body.slice(6)
                    reply(mess.wait)
                    anuwolf3 = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=zeeoneofc&text2=${F}`)
-                   Alienalfa.sendMessage(from, anuwolf3, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it?`, quoted: mek})
+                   Alienalfa.sendMessage(from, anuwolf3, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it 🤓?`, quoted: mek})
                    break
                           case 't3d':
                           
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot*`)
                    F = body.slice(5)
                    reply(mess.wait)
                    anut3d = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
@@ -3640,7 +3531,7 @@ break
                    break
        case 'logoa':
        
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot&lol*`)
                    var F = body.slice(7)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -3650,7 +3541,7 @@ break
                    break
        case 'phlogo':  
        
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot&lol*`)
                    var F = body.slice(9)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -3660,7 +3551,7 @@ break
                    break
        case 'marvel3':
        
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa&lol*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot&lol*`)
                    var F = body.slice(8)
 				   var F1 = F.split("|")[0];
 				   var F2 = F.split("|")[1]; 
@@ -3669,21 +3560,21 @@ break
                    Alienalfa.sendMessage(from, anumrvl3, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'leavest':  
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot*`)
                    F = body.slice(9)
                    reply(mess.wait)
                    anulvst = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
                    Alienalfa.sendMessage(from, anulvst, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break                   
        case 'notewrite':
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anunw = await getBuffer(`${ApiZeks}/api/nulis?text=${F}&apikey=${zeksApikey}`)
                    Alienalfa.sendMessage(from, anunw, image, {thumbnail: Buffer.alloc(0),caption: `OK it's done\n\nHow is it? `, quoted: mek})
                    break
        case 'neon2':
-                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alienalfa*`)
+                   if (args.length < 1) return reply(`[  ×  ] ✨Example :\n*${prefix}${command} Alfabot*`)
                    F = body.slice(7)
                    reply(mess.wait)
                    anunion2 = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
@@ -3697,16 +3588,16 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/sc.jpg')
-scsell = `*𝘼𝙡𝙛𝙖𝘽𝙤𝙩*\n\n• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: _https://youtube.com/c/alienalfa_\n/n• 𝑮𝒊𝒕𝑯𝒖𝒃: _https://github.com/Alien-Alfa/AlienAlfaBot_\n\n• _𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: https://www.instagram.com/_the_soul_rider__ \n\n• _𝐏𝐫𝐨𝐟𝐢𝐥𝐞: https://alien-alfa.github.io_\n\n 𝙋𝙡𝙚𝙖𝙨𝙚 𝘿𝙤 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 𝙖𝙣𝙙 𝙁𝙤𝙡𝙡𝙤𝙬 𝙢𝙚 𝙤𝙣 𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢. `
+scsell = `*𝘼𝙡𝙛𝙖𝘽𝙤𝙩*\n\n• 𝑮𝒊𝒕𝑯𝒖𝒃: _https://github.com/Alfamwas/Alfabot_\n\n• _*WhatsApp*: https://wa.me/+254110367623_\n\n• _𝐏𝐫𝐨𝐟𝐢𝐥𝐞: https://Alfamwas.github.io_\n\n . `
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: '𒆜𝙈𝙀𝙉𝙐' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: '𒆜𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍' }, type: 1 }
 ]
-sendButImage(from, scsell, `_ＡＬＩＥＮ ＡＬＦＡ - *${time}_*`, scpic, but)
+sendButImage(from, scsell, `_ＡＬＦＡ B O T- *${time}_*`, scpic, but)
 break
 case 'runtime':
 
-textImg(`Bot Active Since ${runtime(process.uptime())}`)
+textImg(`Alfa Bot is Active Since ${runtime(process.uptime())}`)
 break
 case 'ping':
 case 'speed':
@@ -3733,7 +3624,7 @@ break
  //══════════[ SEARCH FEATURES ]══════════//
 
     case 'playstore':
-            if(!c) return reply('what are you looking for?')
+            if(!c) return reply('what are you looking for 🤔?')
             let play = await hx.playstore(`${c}`)
             let store = '❉─────────────────────❉\n'
             for (let i of play){
@@ -3746,7 +3637,7 @@ break
             reply(store)
             break
 case 'ytsearch':
-          if (args.length < 1) return reply('What are you looking for?')
+          if (args.length < 1) return reply('What are you looking for 🤔?')
           teks = args.join(' ')
           reply(mess.wait)
           res = await yts(`${teks}`)
@@ -3758,7 +3649,7 @@ case 'ytsearch':
           sendFileFromUrl(res.all[0].image, image, {quoted: mek, caption: akhir})
           break
 case 'pinterest':
-if (!c) return reply('what are you looking for?')
+if (!c) return reply('what are you looking for 😥?')
 pinterest(`${c}`).then( data => {
 const amsulah = data.result
 const pimterest = amsulah[Math.floor(Math.random() * amsulah.length)]
@@ -3768,7 +3659,7 @@ break
 case 'google':
 case 'googlesearch':
 case 'ggs':
-if (args.length < 1) return reply('What are you looking for??')
+if (args.length < 1) return reply('What are you looking for 🤔?')
 teks = args.join(' ')
 reply(mess.wait)
 res = await ggs({'query' : `${teks}`})
@@ -3851,7 +3742,7 @@ case 'uapkpro':
         query = args.join(' ')
         get_result = await fetchJson(`https://dhn-api.herokuapp.com/api/apk/hostapk?apps=${query}&page=1&apikey=cabd55849002ea851ce8`, { method: 'get' })
         kontol = get_result.result
-        ini_txt = '「 Search for applications on the hostapk.com website and provide data from the search results 」\n\n'
+        ini_txt = '「 Searching for applications on the hostapk.com website and provide data from the search results 」\n\n'
         for (var x of kontol) {
           ini_txt += `Name : ${x.apps_name}\n`
           ini_txt += `Link :${x.apps_linkdl}\n`
@@ -3867,7 +3758,7 @@ case 'uapkpro':
         query = args.join(' ')
         get_result = await fetchJson(`https://dhn-api.herokuapp.com/api/apk/apkshub?apps=${query}&apikey=cabd55849002ea851ce8`, { method: 'get' })
         kontol = get_result.result
-        ini_txt = '「 Search for applications on the apkshub.com platform and provide the result data 」\n\n'
+        ini_txt = '「 Searching for applications on the apkshub.com platform and provide the result data 」\n\n'
         for (var x of kontol) {
           ini_txt += `Name : ${x.apps_name}\n`
           ini_txt += `Link :${x.apps_linkdl}\n`
@@ -3881,7 +3772,7 @@ case 'apkmody':
         query = args.join(' ')
         get_result = await fetchJson(`https://dhn-api.herokuapp.com/api/apk/apkmody?apps=${query}&apikey=cabd55849002ea851ce8`, { method: 'get' })
         kontol = get_result.result
-        ini_txt = '「 Search for applications on the apkmody.io platform and provide the result data 」\n\n'
+        ini_txt = '「 Searching for applications on the apkmody.io platform and provide the result data 」\n\n'
         for (var x of kontol) {
           ini_txt += `Name : ${x.apps_name}\n`
           ini_txt += `Desc :${x.apps_desc}\n`
@@ -3895,7 +3786,7 @@ case 'apkgoogle':
         query = args.join(' ')
         get_result = await fetchJson(`https://dhn-api.herokuapp.com/api/apk/apkgoogle?apps=${query}&page=1&apikey=cabd55849002ea851ce8`, { method: 'get' })
         kontol = get_result.result
-        ini_txt = '「 Search for applications on the apkgoogle.org platform and provide the result data 」\n\n'
+        ini_txt = '「 Searching for applications on the apkgoogle.org platform and provide the result data 」\n\n'
         for (var x of kontol) {
           ini_txt += `Name : ${x.apps_name}\n`
           ini_txt += `Link :${x.apps_linkdl}\n`
@@ -4016,7 +3907,7 @@ reply(`*✨HERE IS YOUR RANDOM STYLISH NAME✨*\n\n${anuscn.result}`)
 break
 case 'ssweb':
 case 'ss':
-if (args.length < 1) return reply('Where is the url?')
+if (args.length < 1) return reply('Where is the url 😳?')
 teks = q
 anussweb = await fetchJson(`https://shot.screenshotapi.net/screenshot?&url=${teks}`)
 buff = await getBuffer(anussweb.screenshot)
@@ -4341,7 +4232,7 @@ case 'memegenerator': case 'memegen':{
 									break
  	case 'stickermeme': case 'memesticker': case 'memestick': case 'stickmeme': case 'stcmeme': case 'smeme':{
 						if (args.length < 1) return reply(`Send orders *${prefix + command}* AlfaBot`)
-									if (q.includes('|')) return reply(`Reply to an image with a caption, For ✨Example *${prefix + command}* Alienalfa`)
+									if (q.includes('|')) return reply(`Reply to an image with a caption, For ✨Example *${prefix + command}* Alfabot`)
 									try {
 										if (!isQuotedImage) return reply(`Reply to an image!`)
 										reply(mess.wait)
@@ -4460,7 +4351,7 @@ if (!isQuotedImage) return reply(`Send a picture with a caption ${prefix}setppbo
 enmediaheheh = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 media = await Alienalfa.downloadAndSaveMediaMessage(enmediaheheh, './database/sampah/media_user')
 await sendFile(m, {quoted: mek, caption: `*Here you go*`})
-reply('Cool Done seting new Profile Pic ~i like the old one tho~')
+reply('Cool.🤓 Done seting new Profile Pic.')
     	   
     	   
     	 break  */
@@ -4640,14 +4531,14 @@ case 'stupid':
 					mentions(teks, jds, true)
 					break
 					                        case 'uglycheck':
-					// source code by Alienalfa⛔
+					// source code by ALFA-TECH MANAGEMENT⛔
                   sange = body.slice(1)
 					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const nge = sang[Math.floor(Math.random() * sang.length)]
 					Alienalfa.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
 					break
                 case 'gaycheck':
-					// source code by Alienalfa⛔
+					// source code by ALFA-TECH MANAGEMENT⛔
                   gayy = body.slice(1)
 					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const yag = gay[Math.floor(Math.random() * gay.length)]
@@ -4662,21 +4553,21 @@ case 'stupid':
 					Alienalfa.sendMessage(from, 'Question : *'+lesbii+'*\n\nAnswer : '+ bi+'%', text, { quoted: mek })
 					break
                 case 'handsomecheck':
-					// source code by Alienalfa⛔
+					// source code by ALFA-TECH MANAGEMENT⛔
 ganteng = body.slice(1)
 					const gan =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 					Alienalfa.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
 					break
 		case 'beautycheck':
-					// source code by Alienalfa⛔
+					// source code by ALFA-TECH MANAGEMENT⛔
 cantik = body.slice(1)
 					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 					Alienalfa.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
 					break
 		case 'charactercheck':
-					// source code by Alienalfa⛔
+					// source code by ALFA-TECH MANAGEMENT⛔
 watak = body.slice(1)
 					const wa =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const tak = wa[Math.floor(Math.random() * wa.length)]
@@ -4777,7 +4668,6 @@ break
               const truth =[
     "Have you ever liked anyone? How long?",
     "If you can or if you want, which gc/outside gc would you make friends with? (maybe different/same type)",
-    "apa ketakutan terbesar kamu?",
     "Have you ever liked someone and felt that person likes you too?",
     "What is the name of your friend's ex-girlfriend that you used to secretly like?",
     "Have you ever stolen money from your father or mom? The reason?",
@@ -4881,14 +4771,14 @@ case 'bc':
              const encmediaboomb = isQuotedImage ? JSON.parse(JSON.stringify(Alienalfa).replace('quotedM','m')).message.extendedTextMessage.contextInfo : Alienalfa
              bc100 = await Alienalfa.downloadMediaMessage(encmediaboomb)
              for (let _ of anu100) {
-             Alienalfa.sendMessage(_.jid, bc100, image, {quoted: fgi, caption: `*「 ＡＬＩＥＮ ＡＬＦＡ 𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩 」*\n\n${body.slice(4)}`})
+             Alienalfa.sendMessage(_.jid, bc100, image, {quoted: fgi, caption: `*「 ＡＬＦＡ B O T 𝘽𝙧𝙤𝙖𝙙𝙘𝙖𝙨𝙩 」*\n\n${body.slice(4)}`})
 }
              reply('Broadcast success')
              } else {
              for (let _ of anu100) {
              Alienalfa.sendMessage(_.jid, 
 			{"contentText": `*「 𝘉𝘙𝘖𝘈𝘋𝘊𝘈𝘚𝘛」*\n\n${body.slice(4)}`,
-			"footerText": `ＡＬＩＥＮ ＡＬＦＡ`,
+			"footerText": `ＡＬＦＡ B O T`,
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
 			"buttonText": {"displayText": "𒆜𝙈𝙀𝙉𝙐"
@@ -4943,12 +4833,12 @@ if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 const encmediabcgc = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 bcgc = await Alienalfa.downloadMediaMessage(encmediabcgc)
 for (let _ of groupMembers) {
-Alienalfa.sendMessage(_.jid, bcgc, image, { caption: `*「 ＡＬＩＥＮ ＡＬＦＡ BROADCAST 」*\n*Group* : ${groupName}\n\n${body.slice(6)}` })
+Alienalfa.sendMessage(_.jid, bcgc, image, { caption: ` *「 ALFA BOT  BROADCAST 」*\n*Group* : ${groupName}\n\n${body.slice(6)}` })
 }
 reply('')
 } else {
 for (let _ of groupMembers) {
-sendMess(_.jid, `*「 ＡＬＩＥＮ ＡＬＦＡ  」*\n*Group* : ${groupName}\n\n${body.slice(6)}`)
+sendMess(_.jid, `*「 ＡLFA BOT  」*\n*Group* : ${groupName}\n\n${body.slice(6)}`)
 }
 reply('Success broadcast group')
 }
@@ -4970,7 +4860,7 @@ if (!isQuotedImage) return reply(`Send a picture with a caption ${prefix}setppbo
 enmediaheheh = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 media = await Alienalfa.downloadAndSaveMediaMessage(enmediaheheh, './database/sampah/media_user')
 await Alienalfa.updateProfilePicture(botNumber, media)
-reply('Cool Done seting new Profile Pic ~i like the old one tho~')
+reply('Cool.🤓 Done seting new Profile Pic ~i like the old one tho~')
 break
 case 'setbotbio':
 case 'setbio':
@@ -4998,7 +4888,7 @@ teks = body.slice(8)
 oi1 = teks.split('|')[0]
 oi2 = teks.split('|')[1]
 if (Number(oi2) >= 500) return reply('Max 50!')
-if (!Number(oi2)) return reply('The number must be a number!')
+if (!Number(oi2)) return reply('The number must be a "number"!')
 	  for (let i = 0; i < oi2; i++) {
 	  Alienalfa.sendMessage(from, `${oi1}`, MessageType.text)
 	  }
@@ -5225,17 +5115,17 @@ if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins && !mek.key.fromMe) return reply(mess.only.admin)
 if (args.length < 1) return reply(`Type :\n${prefix}nsfw on to enable\n${prefix}nsfw off to disable`)
 if ((args[0]) === 'on') {
-if (isNsfw) return reply('*nsfw is active !!*')
+if (isNsfw) return reply('*nsfw mode is ON!!*')
 _nsfw.push(from)
 fs.writeFileSync('./database/nsfw.json', JSON.stringify(_nsfw))
 reply(`\`\`\`Success ✅, Activating the nsfw feature in the group\`\`\` *${groupMetadata.subject}*`)
 } else if ((args[0]) === 'off') {
-if (!isNsfw) return reply('*nsfw is already off before !!*')
+if (!isNsfw) return reply('*nsfw mode is OFF!!*')
 _nsfw.splice(from, 1)
 fs.writeFileSync('./database/nsfw.json', JSON.stringify(_nsfw))
 reply(`\`\`\`Success ✅, Disabling the nsfw feature in the group\`\`\` *${groupMetadata.subject}*`)
 } else {
-reply('*on to enable, off to disable*')
+reply('use *nsfw* on/off')
 }
 break
 case 'welcome':
@@ -5244,17 +5134,17 @@ if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins && !mek.key.fromMe) return reply(mess.only.admin)
 if (args.length < 1) return reply(`Type :\n${prefix}welcome on to activate\n${prefix}welcome off to disable`)
 if ((args[0]) === 'on') {
-if (isWelkom) return reply('*welcome is active !!*')
+if (isWelkom) return reply('*welcome mode is ON !!*')
 _welkom.push(from)
 fs.writeFileSync('./database/welcome.json', JSON.stringify(_welkom))
 reply(`\`\`\`Success ✅, Activating the welcome feature in the group\`\`\` *${groupMetadata.subject}*`)
 } else if ((args[0]) === 'off') {
-if (!isWelkom) return reply('*welcome has been off before !!*')
+if (!isWelkom) return reply('*welcome mode is OFF !!*')
 _welkom.splice(from, 1)
 fs.writeFileSync('./database/welcome.json', JSON.stringify(_welkom))
 reply(`\`\`\`Success ✅, Disabling the welcome feature in the group\`\`\` *${groupMetadata.subject}*`)
 } else {
-reply('*on to enable, off to disable*')
+reply('use *welcome* on/off')
 }
 break
 case 'antilink':
@@ -5262,9 +5152,9 @@ case 'antilink':
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins && !mek.key.fromMe) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-if (!q) return reply(`Choose on or off`)
+if (!q) return reply(`use *antilink* on/off`)
 if (args[0].toLowerCase() === 'on'){
-if (isAntiLink) return reply(`Already active`)
+if (isAntiLink) return reply(`antilink is ON`)
 _antilink.push(from)
 fs.writeFileSync('./database/antilink.json', JSON.stringify(_antilink))
 reply(`\`\`\`Success ✅, Activating the antilink feature in the group\`\`\` *${groupMetadata.subject}*`)
@@ -5274,8 +5164,8 @@ _antilink.splice(anuantilink, 1)
 fs.writeFileSync('./database/antilink.json', JSON.stringify(_antilink))
 reply(`\`\`\`Success ✅, Disabling the antilink feature in the group\`\`\` *${groupMetadata.subject}*`)
 } else {
-reply(`_Choose on or off_`)
-}
+reply(`use *antilink* on/off`)
+} 
 break
         
 
@@ -5284,19 +5174,19 @@ case 'antivirtex':
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins && !mek.key.fromMe) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-if (!q) return reply(`Choose on or off`)
+if (!q) return reply(`use *antivirus* on/off`)
 if (args[0].toLowerCase() === 'on'){
-if (isAntiVirtex) return reply(`Already active`)
+if (isAntiVirtex) return reply(`antivirus mode is ON!!`)
 _antivirtex.push(from)
 fs.writeFileSync('./database/antivirtex.json', JSON.stringify(_antivirtex))
-reply(`\`\`\`Success ✅, Activating the antivirtex feature in the group\`\`\` *${groupMetadata.subject}*`)
+reply(`\`\`\`Success ✅, Activating the antivirus feature in the group\`\`\` *${groupMetadata.subject}*`)
 } else if (args[0].toLowerCase() === 'off'){
 let anuantivtex = _antivirtex.indexOf(from)
 _antivirtex.splice(anuantivtex, 1)
 fs.writeFileSync('./database/antivirtex.json', JSON.stringify(_antivirtex))
 reply(`\`\`\`Success ✅, Disabling the antivirus feature in the group\`\`\` *${groupMetadata.subject}*`)
 } else {
-reply(`_Choose on or off_`)
+reply(`use *antivirus* on/off_`)
 }
 break
 
@@ -5337,14 +5227,14 @@ if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag the target who wants to be an admin!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 if (mentioned.length > 1) {
-teks = 'Order received, you became an admin :\n'
+teks = 'You promoted to an admin😜 :\n'
 for (let _ of mentioned) {
 teks += `@${_.split('@')[0]}\n`
 }
 mentions(teks, mentioned, true)
 Alienalfa.groupMakeAdmin(from, mentioned)
 } else {
-mentions(`Order received, Promoted : @${mentioned[0].split('@')[0]} to an admin in *${groupMetadata.subject}*`, mentioned, true)
+mentions(`You Promoted : @${mentioned[0].split('@')[0]} to an admin in *${groupMetadata.subject}*`, mentioned, true)
 Alienalfa.groupMakeAdmin(from, mentioned)
 }
 break
@@ -5356,14 +5246,14 @@ if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('Tag the admin you want to demote!')
 mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 if (mentioned.length > 1) {
-teks = 'Order received, you are not an admin anymore :\n'
+teks = 'You are not an admin anymore 😂 :\n'
 for (let _ of mentioned) {
 teks += `@${_.split('@')[0]}\n`
 }
 mentions(teks, mentioned, true)
 Alienalfa.groupDemoteAdmin(from, mentioned)
 } else {
-mentions(`Order received, Demoted : @${mentioned[0].split('@')[0]} to a member`, mentioned, true)
+mentions(`You Demoted : @${mentioned[0].split('@')[0]} from admin`, mentioned, true)
 Alienalfa.groupDemoteAdmin(from, mentioned)
 }
 break
@@ -5401,7 +5291,7 @@ num = `${args[0].replace(/ /g, '')}@s.whatsapp.net`
 Alienalfa.groupAdd(from, [num])
 } catch (e) {
 console.log('Error :', e)
-reply('Failed to add target, maybe because in private')
+reply('Failed to add target, maybe because of his/her private settings')
 }
 break
 case "kick":
@@ -5437,7 +5327,7 @@ switch (command) {
 	
             case 'join': {
 					if (!isOwner && !mek.key.fromMe) return reply(mess.owner)
-                if (!text) throw 'gime group link!'
+                if (!text) throw 'give me the group link!'
                 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
                 reply(mess.wait())
                 let result = args[0].split('https://chat.whatsapp.com/')[1]
@@ -5757,7 +5647,7 @@ reply(`${err}`)
     e = String(e)
     if (!e.includes("this.isZero") && !e.includes("jid")) {
 	console.log('Error : %s', color(e, 'red'))
-	Alienalfa.sendMessage(`${owner}@s.whatsapp.net`, `───「 *ＥＲＲＯＲ ＡＬＥＲＴ* 」───\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "𝘼𝙇𝙄𝙀𝙉 𝘼𝙇𝙁𝘼",body:"Subscribe to my YouTube channel",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alien.jpg'),sourceUrl:"https:youtube.com/c/alienalfa"}}})
+	Alienalfa.sendMessage(`${owner}@s.whatsapp.net`, `───「 *ＥＲＲＯＲ ＡＬＥＲＴ* 」───\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "ALFA BOT",body "Contact the developer on whatsapp",previewType:"PHOTO",thumbnail:fs.readFileSync('./media/Alien.jpg'),sourceUrl:"https://wa.me/+254110367623"}}})
         }
 	// console.log(e)
 	}
