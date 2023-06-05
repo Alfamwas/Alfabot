@@ -1,13 +1,13 @@
 <p align="left">
-  <a href="https://github.com/alien-Alfa"><img title="Support" src="https://img.shields.io/badge/maintained-no-cyan.svg?style=for-the-badge&logo=xcode" /></a>
+  <a href="https://github.com/Alfamwas"><img title="Support" src="https://img.shields.io/badge/maintained-no-cyan.svg?style=for-the-badge&logo=xcode" /></a>
 </p>
 
 <p align="center">
-  <a href="https://www.instagram.com/_the_soul_rider_/"><img src="https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/Bungee%20Shades.png?raw=true" width="500" alt="Profile"/> </a>
+  <a href="#"><img src="https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/Bungee%20Shades.png?raw=true" width="500" alt="Profile"/> </a>
 </p>
 
 <p align="center">
-<strong>ＡＬＩＥＮ ＡＬＦＡ ＢＯＴ</strong>
+<strong> ＡＬＦＡ-T E C H - ＢＯＴ</strong>
 </p>
 
 
@@ -18,14 +18,14 @@
   <a href="https://github.com/AlfaBot"><img title="Developer" src="https://img.shields.io/badge/Author-Alienalfa-blue.svg?style=for-the-badge&logo=github" /></a>
 </p>
 <p align="center">
-<a href="#"><img title="Alienalfa" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
+<a href="#"><img title="ALFA-TECH" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
 </p>
 
 
 <h3 align="center">Contact Me:</h3>
 <p align="center">
-<a href="#" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="kyrie_baran" height="30" width="40" /></a>
-<a href="https://instagram.com/_the_soul_rider_" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
+<a href="https://wa.me/+254110367623" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/whatsapp.svg" alt="kyrie_baran" height="30" width="40" /></a>
+
 </p>
 
 
@@ -33,23 +33,23 @@
 
 # `Scan QR Code For Session`
  
-<a href="https://replit.com/@Alien-Alfa/ALIEN-ALFA-BOT"><img title="ＡＬＩＥＮ ＡＬＦＡ" src="https://repl.it/badge/github/quiec/whatsasena" width="300"></a>
+<a href="https://replit.com/@Alien-Alfa/ALIEN-ALFA-BOT"><img title="ＡLFA-TECH " src="https://repl.it/badge/github/quiec/whatsasena" width="300"></a>
 
-<a href="https://heroku.com/deploy?template=https://github.com/Alien-alfa/WhatsAppBot"><img title="ＡＬＩＥＮ ＡＬＦＡ" src="https://www.herokucdn.com/deploy/button.svg" width="400"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Alfamwas/Alfabot"><img title="ＡLFA-TECH " src="https://www.herokucdn.com/deploy/button.svg" width="400"></a>
 
   # `FORK THIS BEFORE PROCEEDING`
  
   `Use This Button To Fork Now`
   
-  <a href="https://github.com/Alien-alfa/WhatsAppBot/fork"><img title="ＡＬＩＥＮ ＡＬＦＡ" src="https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/pngegg.png?raw=true" width="200"></a>
+  <a href="https://github.com/Alfamwas/Alfabot/fork"><img title="ALFA-TECH " src="https://github.com/Alien-alfa/Alien-alfa/blob/beta/img/pngegg.png?raw=true" width="200"></a>
  
   <!--
 # `CHANGE THESE SETTINGS`
 
-- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘉𝘖𝘛 𝘚𝘌𝘚𝘚𝘐𝘖𝘕      [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alien-alfa/AlienAlfaBot/blob/master/session.json#L1)
-- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘖𝘞𝘕𝘌𝘙 𝘕𝘜𝘔𝘉𝘌𝘙    [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alien-alfa/AlienAlfaBot/blob/master/setting/setting.json#L9)
-- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘖𝘞𝘕𝘌𝘙 𝘕𝘈𝘔𝘌      [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alien-alfa/AlienAlfaBot/blob/master/setting/setting.json#L10)
-- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘉𝘖𝘛 𝘕𝘈𝘔𝘌        [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alien-alfa/AlienAlfaBot/blob/master/setting/setting.json#L11)
+- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘉𝘖𝘛 𝘚𝘌𝘚𝘚𝘐𝘖𝘕      [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alfamwas/Alfabot/blob/master/session.json#L1)
+- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘖𝘞𝘕𝘌𝘙 𝘕𝘜𝘔𝘉𝘌𝘙    [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alfamwas/Alfabot/blob/master/setting/setting.json#L9)
+- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘖𝘞𝘕𝘌𝘙 𝘕𝘈𝘔𝘌      [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alfamwas/Alfabot/blob/master/setting/setting.json#L10)
+- 𝘾𝙃𝘼𝙉𝙂𝙀 𒆜𝘉𝘖𝘛 𝘕𝘈𝘔𝘌        [★彡[ʜᴇʀᴇ]彡★](https://github.com/Alfamwas/Alfabot/blob/master/setting/setting.json#L11)
   
   
 -->
@@ -105,8 +105,8 @@ heroku/nodejs
   </div>
   
 ```bash
-𒆜 git clone https://github.com/Alien-alfa/WhatsAppBot.git
-𒆜 cd WhatsAppBot
+𒆜 git clone https://github.com/Alfamwas/Alfabot.git
+𒆜 cd Alfabot
 𒆜 npm start
 ```
 
@@ -119,7 +119,7 @@ This project is open source so all the codes are clear. Neither less nor more; y
 If you are concerned about security, you can install it on your own computer. If you think someone else has captured your data, simply click on **Whatsapp> Three Dots> Linked Devices> Logout** from all sessions button.
 
 ### Is it paid?
-**Of course not.** It will never happen. But you can donate to us. You can reach me via [Instagram](https://www.instagram.com/_the_soul_rider_/) .
+**Of course not.** It will never happen. But you can donate to us. You can reach me via [WhatsApp](https://wa.me/+254110367623) .
 
 ### ⚠️ Warning! 
 ```
@@ -132,9 +132,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-| [![Alien-Alfa](https://github.com/Alien-alfa.png?size=200)](https://github.com/Alien-Alfa) |
+| [! ALFA-TECH MANAGEMENT](https://github.com/Alien-alfa.png?size=200)](https://github.com/Alfamwas) |
 |----|
-| [꧁𓊈𒆜ＡＬＩＥＮ ＡＬＦＡ𒆜𓊉꧂](https://github.com/Alien-alfa) |
+| [ ＡLFA-TECH MANAGEMENT𒆜𓊉꧂](https://github.com/Alfamwas) |
 | 𒆜Bug Fixes, Modules, updates𒆜 |
   </div>
 
