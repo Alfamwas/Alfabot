@@ -15,7 +15,7 @@
 <a href="##"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=English&color=blue"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/Alfamwas"><img title="Developer" src="https://img.shields.io/badge/Author-Alfa-tech Management-blue.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/Alfabot"><img title="Developer" src="https://img.shields.io/badge/Author-Alfa-tech Management-blue.svg?style=for-the-badge&logo=github" /></a>
 </p>
 <p align="center">
 <a href="#"><img title="ALFA-TECH" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
